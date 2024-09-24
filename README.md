@@ -32,14 +32,9 @@ The GihHub button takes your web browser to the official github release page of 
 
 Python & Pip of course, both on windows or linux.
 
-To run this script you need these other pip modules installed:
+To run this script you need these other packages and pip modules installed:
 
 tkinter , requests, json, subprocess, webbrowser, threading
-
-If you encounter some error on the script launch, try to install such modules with command:
-
-pip install tkinter requests json subprocess webbrowser threading
-
 
 #################################################################
 Tested on windows 10 with python & pip, all seems to work fine. 
