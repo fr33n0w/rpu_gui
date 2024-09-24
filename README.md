@@ -63,3 +63,6 @@ RPU_GUI.PY V1.2 BY F - 24/09/2024
 - SECOND REVISION 
 - IMPROVED GUI 
 - RESOLVED "STATUS" LABEL NOT UPDATING ON INSTALLING NEW PACKAGE
+
+  SCREENSHOT:
+![rpu_gui_screenshot](https://github.com/user-attachments/assets/55eb63e0-f924-42d6-83cc-58df5fea70dc)
