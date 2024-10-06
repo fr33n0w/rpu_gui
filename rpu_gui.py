@@ -8,14 +8,17 @@ import threading
 class GitHubPackageUpdater:
     def __init__(self, root):
         self.root = root
-        self.root.title("Reticulum Package Updater GUI v1.2 by F")
+        self.root.title("Reticulum Package Updater GUI (rpu_gui v1.5 by F)")
         self.packages = [
             {'name': 'RNS', 'url': 'https://github.com/markqvist/Reticulum', 'owner': 'markqvist', 'repo': 'Reticulum'},
             {'name': 'LXMF', 'url': 'https://github.com/markqvist/lxmf', 'owner': 'markqvist', 'repo': 'lxmf'},
             {'name': 'NomadNet', 'url': 'https://github.com/markqvist/nomadnet', 'owner': 'markqvist', 'repo': 'nomadnet'},
             {'name': 'MeshChat', 'url': 'https://github.com/liamcottle/reticulum-meshchat', 'owner': 'liamcottle', 'repo': 'reticulum-meshchat', 'manual': True},
             {'name': 'Sideband', 'url': 'https://github.com/markqvist/Sideband', 'owner': 'markqvist', 'repo': 'Sideband', 'manual': True},
-            {'name': 'RNode CE', 'url': 'https://github.com/liberatedsystems/RNode_Firmware_CE', 'owner': 'liberatedsystems', 'repo': 'RNode_Firmware_CE', 'manual': True}
+            {'name': 'RNode', 'url': 'https://github.com/markqvist/RNode_Firmware', 'owner': 'markqvist', 'repo': 'RNode_Firmware', 'manual': True},
+            {'name': 'RNode CE', 'url': 'https://github.com/liberatedsystems/RNode_Firmware_CE', 'owner': 'liberatedsystems', 'repo': 'RNode_Firmware_CE', 'manual': True},
+            {'name': 'RNode TN', 'url': 'https://github.com/attermann/microReticulum_Firmware', 'owner': 'attermann', 'repo': 'microReticulum_Firmware', 'manual': True}
+
         ]
 
         self.frame = tk.Frame(root, bg="#2b2b2b")
